@@ -46,7 +46,7 @@ Feel free to contribute by:
 ## 🔗 Connect
 
 - GitHub: [@praphull-verma](https://github.com/praphull-verma)
-- Socials: [Link(https://linktr.ee/praphull_verma)]
+- Socials: [Link](https://linktr.ee/praphull_verma)
 
 ---
 
