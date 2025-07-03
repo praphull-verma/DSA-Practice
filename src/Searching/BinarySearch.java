@@ -1,14 +1,9 @@
-public class floorofanumber {
+package Searching;
 
-    //floor means
-    // Greatest number <= target
-
-    public static int floor(int[] arr, int target){
+public class BinarySearch {
+    public static int binarySearch(int[] arr, int target){
         int start = 0;
         int end = arr.length - 1;
-        if(target < arr[0]){
-            return -1;
-        }
 
         while (start <= end){
             int mid = start + (end - start) / 2;
@@ -19,16 +14,18 @@ public class floorofanumber {
                 start = mid + 1;
             }
             else {
-                return arr[mid];
+                return mid;
             }
         }
-        return arr[end];
+        return -1;
 
     }
+
+
+
     public static void main(String[] args) {
         int[] array = {4,5,8,10};
-        int target = 1;
-        System.out.println(floor(array,target));
+        int target = 10;
+        System.out.println(binarySearch(array,target));
     }
-
 }

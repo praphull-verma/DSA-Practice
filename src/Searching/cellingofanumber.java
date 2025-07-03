@@ -1,3 +1,5 @@
+package Searching;
+
 public class cellingofanumber {
     //Celling of a number means the smallest no >= target
     // smallest no greater than or equal to target

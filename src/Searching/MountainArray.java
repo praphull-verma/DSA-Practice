@@ -1,3 +1,5 @@
+package Searching;
+
 public class MountainArray {
     public int peakIndexInMountainArray(int[] arr) {
         int start = 0;

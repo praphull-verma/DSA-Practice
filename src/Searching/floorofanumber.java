@@ -1,7 +1,16 @@
-public class BinarySearch {
-    public static int binarySearch(int[] arr, int target){
+package Searching;
+
+public class floorofanumber {
+
+    //floor means
+    // Greatest number <= target
+
+    public static int floor(int[] arr, int target){
         int start = 0;
         int end = arr.length - 1;
+        if(target < arr[0]){
+            return -1;
+        }
 
         while (start <= end){
             int mid = start + (end - start) / 2;
@@ -12,18 +21,16 @@ public class BinarySearch {
                 start = mid + 1;
             }
             else {
-                return mid;
+                return arr[mid];
             }
         }
-        return -1;
+        return arr[end];
 
     }
-
-
-
     public static void main(String[] args) {
         int[] array = {4,5,8,10};
-        int target = 10;
-        System.out.println(binarySearch(array,target));
+        int target = 1;
+        System.out.println(floor(array,target));
     }
+
 }

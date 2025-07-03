@@ -1,3 +1,5 @@
+package general;
+
 public class EvenOrNot {
 
     public boolean even(int num) {

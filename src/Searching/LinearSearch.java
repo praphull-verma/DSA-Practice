@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Searching;
 
 public class LinearSearch {
     //METHOD TO FIND THE MINIMUM NUMBER IN AN ARRAY-
