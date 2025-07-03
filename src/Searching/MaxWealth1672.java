@@ -2,6 +2,7 @@ package Searching;
 
 //https://leetcode.com/problems/richest-customer-wealth
 
+
 public class MaxWealth1672 {
 
     public static int maximumWealth(int[][] accounts) {
