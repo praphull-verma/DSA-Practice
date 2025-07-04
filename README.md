@@ -1,4 +1,4 @@
-# DSA Practice
+# DSA Practice - [Here](https://github.com/praphull-verma/DSA-Practice)
 
 A comprehensive collection of Data Structures and Algorithms implementations and problem solutions for interview preparation and competitive programming.
 
@@ -46,7 +46,7 @@ Feel free to contribute by:
 ## 🔗 Connect
 
 - GitHub: [@praphull-verma](https://github.com/praphull-verma)
-- Socials: [https://linktr.ee/praphull_verma]
+- Socials: [Link](https://linktr.ee/praphull_verma)
 
 ---
 
